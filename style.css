@@ -1,0 +1,133 @@
+body {
+  background: linear-gradient(rgba(248, 212, 212, 0.9), rgba(0, 0, 0, 0.8)),
+    url(https://wallpapercave.com/wp/xibWWss.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #f4f4f4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.1rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+#main {
+  padding-bottom: 2rem;
+}
+
+#title {
+  font-family: "Tangerine", cursive;
+  font-size: 4.5rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: -1rem;
+  text-shadow: 2px 2px 8px #000;
+}
+
+#subtitle {
+  font-family: "Playfair Display", serif;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+}
+
+#img-div {
+  margin: 0;
+  padding: 1rem 15% 0;
+}
+
+#image {
+  border-radius: 50%;
+  box-shadow: #999 -5px -5px 0px;
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+  opacity: 0.9;
+}
+
+#img-caption {
+  font-family: "Playfair Display", serif;
+  margin-top: 0.5rem;
+}
+
+#tribute-info {
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(9, 39, 21, 0.5)
+  );
+  box-shadow: 1px 1px 0px #999, 2px 2px 0px #999, 3px 3px 0px #999,
+    4px 4px 0px #999, 5px 5px 0px #999, 6px 6px 0px #999;
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0.5rem 0;
+}
+
+#tribute-info h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
+}
+
+#tribute-info ul {
+  padding: 0 0.5rem 0 1rem;
+  text-align: left;
+  margin: 0 0 3.5rem;
+  list-style: none;
+}
+
+#tribute-info ul li {
+  margin-bottom: 1.2rem;
+}
+
+blockquote {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  text-align: left;
+}
+
+blockquote p {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+#tribute-link {
+  color: rgb(110, 184, 192);
+  padding-left: 0.5rem;
+  text-decoration: none;
+  word-spacing: -0.2rem;
+}
+
+/********************************** Media Queries ************************************/
+@media only screen and (max-width: 1092px) {
+  #tribute-info {
+    max-width: 65%;
+  }
+  #img-div {
+    padding: 1rem 10% 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  title {
+    font-size: 4rem;
+  }
+  #tribute-info {
+    max-width: 75%;
+  }
+  #img-div {
+    padding: 1rem 5% 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #tribute-info {
+    max-width: 95%;
+  }
+  footer {
+    font-size: 1.1rem;
+  }
+}
